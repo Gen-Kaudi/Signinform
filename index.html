@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <title>Sign Up</title>
 </head>
 <body>
@@ -21,8 +27,30 @@
             <div class="Name" id="Phone">
                 <label for="Phone">Phone Number</label>
                 <input type="text" required placeholder="0722000111">
+                <script>
+                    const phoneInputField = document.querySelector("#phone");
+                    const phoneInput = window.intlTelInput(phoneInputField, {
+                      utilsScript:
+                        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+                    });
+                  </script>
 
             </div>
+            <div class="Name" id="Email">
+                <label for="Email">Email Address</label>
+                <input type="email" name="Email" id="Email" required placeholder="nelsonmandela@gmail.com">
+            </div>
+            <div>
+            <label for="Program">Choose your preferred program</label>
+            <select name="Program" id="Program">
+                <option value="Softwareengineercore">Software engineer Core</option>
+                <option value="datasciencecore">Data Science Core</option>
+                <option value="Dataanalyticslitecore">Data Analytics Lite Core</option>
+                <option value="Webdevelopmentlitecore">Web development Lite Core</option>
+                <option value="Undecided">Undecided. Help me choose a program!</option>
+            </select>
+            </div>
+            <button type="submit">Complete Application</button>
         </section>
     </form>
 </body>
