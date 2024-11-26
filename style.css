@@ -1,0 +1,15 @@
+h1 {
+    align-items: center;
+    font-family: var(--global-body-font-family);
+    text-align: center;
+}
+p {
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+div{
+    display: block;
+    align-items: center;
+}
