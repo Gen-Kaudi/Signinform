@@ -1,0 +1,41 @@
+form{
+    box-sizing: border-box;
+    border: 1px solid rgb(245, 245, 245);
+    padding: 10px 15px 15px 10px;
+    margin: 10% 15% 5% 5%;
+    background-color: white;
+    border-radius: 6px;
+    height: 130vh;
+    box-shadow: 2px 2px 2px 2px  rgb(242, 241, 241);
+}
+.Parent{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid  rgb(148, 151, 154);
+    border-radius: 5px;
+    align-items: center;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    font-family: serif;
+}
+button{
+    width: 94%;
+    border: none;
+    background-color: red;
+    border-radius: 4px;
+    height: 2.5rem;
+    color: white;
+    font-size: 1.1rem;
+}
+button:hover{
+    background-color: rgb(14, 143, 203);
+    cursor: pointer;
+}
+}

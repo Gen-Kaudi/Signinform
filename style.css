@@ -21,16 +21,25 @@ input{
     width: 100%;
     padding: 0.5rem;
 }
-body{
-    justify-content: center;
-
-}
 button{
     color: white;
     background-color: red;
-    padding: none;
-    
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    justify-content: center;
 }
-button:hover {
+button:hover{
     background-color: cornflowerblue;
+    cursor: pointer;
+}
+.button{
+display: block;
+
+
+
 }
