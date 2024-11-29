@@ -17,15 +17,15 @@
         <p>Learn to code today and launch a lucrative career in tech.</p><br>
         <section>
             <div class="Name" id="Fname">
-                <label for="Fname"> First Name</label>
-                <input type="text" required placeholder="Nelson">
+                <label for="Fname"> First Name *</label>
+                <input type="text" required placeholder="Nelson" autofocus>
             </div>
             <div class="Name" id="Sname">
-                <label for="Sname"> Second Name</label>
-                <input type="text" required placeholder="Mandela">
+                <label for="Sname"> Second Name *</label>
+                <input type="text" required placeholder="Mandela" autofocus>
             </div>
             <div class="Name" id="Phone">
-                <label for="Phone">Phone Number</label>
+                <label for="Phone">Phone Number *</label>
                 <input type="text" required placeholder="0722000111">
                 <script>
                     const phoneInputField = document.querySelector("#phone");
@@ -37,12 +37,13 @@
 
             </div>
             <div class="Name" id="Email">
-                <label for="Email">Email Address</label>
+                <label for="Email">Email Address *</label>
                 <input type="email" name="Email" id="Email" required placeholder="nelsonmandela@gmail.com">
             </div>
             <div>
-            <label for="Program">Choose your preferred program</label>
+            <label for="Program">Choose your preferred program *</label>
             <select name="Program" id="Program">
+                <option value="--Select--">--Select--</option>
                 <option value="Softwareengineercore">Software engineer Core</option>
                 <option value="datasciencecore">Data Science Core</option>
                 <option value="Dataanalyticslitecore">Data Analytics Lite Core</option>

@@ -12,4 +12,25 @@ p {
 div{
     display: block;
     align-items: center;
+    padding-top: 0.75rem;
+    margin-top: 0.5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+input{
+    width: 100%;
+    padding: 0.5rem;
+}
+body{
+    justify-content: center;
+
+}
+button{
+    color: white;
+    background-color: red;
+    padding: none;
+    
+}
+button:hover {
+    background-color: cornflowerblue;
 }
