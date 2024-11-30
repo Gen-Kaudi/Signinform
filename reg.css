@@ -2,7 +2,7 @@ form{
     box-sizing: border-box;
     border: 1px solid rgb(245, 245, 245);
     padding: 10px 15px 15px 10px;
-    margin: 10% 15% 5% 5%;
+    margin: 2% 26% 5% 26%;
     background-color: white;
     border-radius: 6px;
     height: 130vh;
@@ -10,7 +10,7 @@ form{
 }
 .Parent{
     margin-top: 20px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: sans-serif;
     margin-left: 5px;
 }
@@ -20,13 +20,17 @@ input{
     margin-top: 10px;
     border: 1px solid  rgb(148, 151, 154);
     border-radius: 5px;
-    align-items: center;
     height: 1.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: serif;
+    }
+    input:focus{
+        border: 1px solid rgb(237, 10, 10);
+        background-color: aliceblue;
+
 }
 button{
-    width: 94%;
+    width: 93%;
     border: none;
     background-color: red;
     border-radius: 4px;
@@ -39,4 +43,10 @@ button:hover{
     background-color: rgb(14, 143, 203);
     cursor: pointer;
 }
+body{
+    padding-left:40px;
+}
+h1{
+    margin-top: 150px;
+    font-size: 50px;
 }
